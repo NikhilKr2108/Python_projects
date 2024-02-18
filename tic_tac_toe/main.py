@@ -3,7 +3,7 @@ a = int(input("Enter your no. in range of 1 to 10: "))
 def table(x):
     for i in range(1, 11):
         print(x, " * ", i, " = ", x*i)
-
+        
 match a:
     case 1:
         table(1)
