@@ -7,7 +7,7 @@ def speak(text):
     try:
         engine = pyttsx3.init()  # Initialize Text-to-Speech engine
         voices = engine.getProperty('voices')
-        engine.setProperty('voice', voices[1].id)  # Set voice (optional)
+        engine.setProperty('voice', voices[0].id)  # Set voice (optional)
         engine.say(text)
         engine.runAndWait()
     except Exception as e:

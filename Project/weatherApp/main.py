@@ -17,7 +17,6 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-# print(r.text)
 # data read by jsom module
 weatherDetails = json.loads(r.text)
 
