@@ -39,4 +39,3 @@ if success:
     print("Image resizing completed.")
 else:
     print("Image resizing failed. Please check the provided information and try again.")
-
